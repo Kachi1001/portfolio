@@ -1,25 +1,42 @@
 .top{
-    margin: 20px;
+    margin: 30px;
     display: flex;
     flex-direction: row;
     box-shadow: 3px 3px 10px black;
     background-color: white;
+    border-radius: 10px;
+    flex-wrap: ;
 }
 .photo{
+    box-shadow: 3px 0px 5px lightgray;
     background: #f5cc5ccc;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
     justify-content: center;
-
-    padding: 30px
+    padding: 30px;
+    /* height: 500px; */
+    font-size: larger;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 .photo img{
-    width: 150px;
-    height: auto;
+    width: 180px;
+    height: 180px;
     box-shadow: 3px 3px 5px black;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.photo h2{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
 }
 .aboutme{
+
     background-color: white;
     font-size: large;
     font-weight: bold;
+    margin: 20px;
+
 }

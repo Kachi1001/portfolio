@@ -3,6 +3,7 @@ body{
     width: 100%;
     height: 1280px;
     background-color: #C98702;
+    font-family: sans-serif, monospace; 
 }
 nav{
     background-color: #F5CB5C;
