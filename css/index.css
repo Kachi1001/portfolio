@@ -1,0 +1,25 @@
+.top{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 3px 3px 10px black;
+    background-color: white;
+}
+.photo{
+    background: #f5cc5ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px
+}
+.photo img{
+    width: 150px;
+    height: auto;
+    box-shadow: 3px 3px 5px black;
+}
+.aboutme{
+    background-color: white;
+    font-size: large;
+    font-weight: bold;
+}
