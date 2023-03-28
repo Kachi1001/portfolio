@@ -1,1 +1,9 @@
-
+main{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+main p{
+    size: 500px;
+    box-shadow: 1px 1px 1px black;
+}
