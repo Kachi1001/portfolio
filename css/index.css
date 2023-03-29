@@ -1,4 +1,4 @@
-.top{
+.sessao{
     margin: 30px;
     display: flex;
     flex-direction: row;
@@ -39,4 +39,19 @@
     font-weight: bold;
     margin: 20px;
 
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-items: center;
+    background-color: lightgray;
+    max-width: 300px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.projects .name{
+    font-weight: bold;
 }
